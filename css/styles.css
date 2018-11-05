@@ -1,7 +1,12 @@
 
+html {
+   background-color: #e8ffc9; 
+}
+
 #logo {
     height: 50px;
     box-shadow: none;
+    padding: 1em;
 }
 
 .examples {
@@ -33,4 +38,30 @@ p {
     color: forestgreen;
     font-size: 15pt;
     font-family: sans-serif
+}
+
+header {
+    display: flex;
+    align-items: center;
+    background-color: lightgreen;
+}
+
+header nav {
+    flex: 1;
+}
+
+header nav ul {
+    display: flex;
+    justify-content:flex-start;
+    
+}
+
+header nav li {
+    list-style-type: none;
+    padding: 1em;
+}
+
+main {
+/*    display: flex;*/
+    flex:1;
 }
