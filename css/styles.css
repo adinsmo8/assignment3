@@ -4,21 +4,23 @@ html {
 }
 
 #logo {
-    height: 50px;
+    height: 80px;
     box-shadow: none;
     padding: 1em;
 }
 
 .examples {
-    height: 100px;
+    height: 130px;
     box-shadow: 5px 5px green;
 }
 
 h1 {
     color: deeppink;
     border: 2px green solid;
+/*
     padding-left: 12px;
     margin-right: 350px;
+*/
 }
 
 h2 {
@@ -44,6 +46,7 @@ header {
     display: flex;
     align-items: center;
     background-color: lightgreen;
+    font-size: 1.2em;
 }
 
 header nav {
@@ -65,3 +68,48 @@ main {
 /*    display: flex;*/
     flex:1;
 }
+
+#title {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.4em
+}
+
+#kinds_of_watermelon1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.4em
+}
+
+#kinds_of_watermelon2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.4em;
+}
+
+#watermelon_examples {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#watermelon_characteristics1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.6em;
+}
+
+#watermelon_characteristics2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.4em
+}
+
+
