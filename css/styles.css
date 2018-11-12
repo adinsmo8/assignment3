@@ -28,11 +28,11 @@ h1 {
 }
 
 h2 {
-    color: limegreen
+    color: limegreen;
 }
 
 h3 {
-    color: limegreen
+    color: limegreen;
 }
 
 html {
@@ -70,6 +70,17 @@ header nav li {
     padding: 1em;
 }
 
+main {
+    display: flex;
+    justify-content: space-around;
+    min-height: 600px;
+}
+
+#homepage {
+    display: flex;
+    flex-direction: column;
+}
+
 footer {
     display: flex;
     justify-content: center;
@@ -104,7 +115,6 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    
 }
 
 #watermelon_characteristics1 {
@@ -125,16 +135,26 @@ footer {
 #discovery_pictures {
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
     align-items: flex-end;
 }
 
 #season_pictures {
     display: flex;
-    justify-content: flex-end;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-end;
 }
 
 
 #discovery_paragraph {
     display: flex;
-    
+    max-width: 450px;
+    max-height: 420px;
+}
+
+#season_paragraph {
+    display: flex;
+    max-width: 450px;
+    max-height: 420px;
 }
